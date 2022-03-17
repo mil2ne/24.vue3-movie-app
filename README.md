@@ -5,3 +5,6 @@
 - `package.json` 에서 `"vue": "^3.2.31"` 로 지정함 ( 내 경우엔..)
 - `npm i vue-router@4`
 
+
+## bootstrap
+- `npm i bootstrap`
