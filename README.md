@@ -6,5 +6,7 @@
 - `npm i vue-router@4`
 
 
-## bootstrap
+## bootstrap & Google Fonts
 - `npm i bootstrap`
+- `https://fonts.google.com/` 
+  - roboto (400,700) , oswald (500)
