@@ -10,3 +10,7 @@
 - `npm i bootstrap`
 - `https://fonts.google.com/` 
   - roboto (400,700) , oswald (500)
+
+## omdp api 사용
+- `npm i axios`
+- http://www.omdbapi.com/
