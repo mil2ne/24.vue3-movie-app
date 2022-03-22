@@ -14,3 +14,6 @@
 ## omdp api 사용
 - `npm i axios`
 - http://www.omdbapi.com/
+
+## store ( vuex )
+- `npm i vuex@next`
