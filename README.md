@@ -17,3 +17,6 @@
 
 ## store ( vuex )
 - `npm i vuex@next`
+
+## 중복제거를 위해 lodash 의 uniq
+- `npm i lodash`
