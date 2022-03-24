@@ -71,7 +71,7 @@ export default {
 
 function _fetchMovie(payload) {
   const {title, type, year, page} = payload
-  const OMDB_API_KEY = '****'
+  const OMDB_API_KEY = '7035c60c'
   const url = `https://www.omdbapi.com/?apikey=${OMDB_API_KEY}&s=${title}&type=${type}&y=${year}&page=${page}`
   
 
