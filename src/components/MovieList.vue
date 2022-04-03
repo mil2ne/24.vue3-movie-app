@@ -33,7 +33,7 @@ export default {
     Loader
   },
   computed: {
-    ...mapState('movies', [
+    ...mapState('movie', [
       'movies',
       'message',
       'loading'
