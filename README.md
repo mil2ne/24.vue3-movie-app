@@ -21,3 +21,7 @@
 
 ## 중복제거를 위해 lodash 의 uniq
 - `npm i lodash`
+
+
+## netlify cli
+- `npm i -D netlify-cli`
