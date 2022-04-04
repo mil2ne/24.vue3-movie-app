@@ -25,3 +25,6 @@
 
 ## netlify cli
 - `npm i -D netlify-cli`
+
+## 환경변수 
+- `npm i -D dotenv-webpack`
