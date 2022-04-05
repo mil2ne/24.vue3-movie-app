@@ -28,3 +28,6 @@
 
 ## 환경변수 
 - `npm i -D dotenv-webpack`
+
+## unit test
+- `npm i -D jest @vue/test-utils@next vue-jest@next babel-jest`
