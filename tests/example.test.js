@@ -1,24 +1,27 @@
-const { TestWatcher } = require("jest")
+import { asyncFn } from "./example";
 
-const userA = {
-  name: 'Heropy',
-  age: 85
-}
-
-const userB = {
-  name: 'Neo',
-  age: 22
-}
-
-test('데이터가 일치해야 합니다.', () => {
-  expect(userA.age).toBe(85)
-  expect(userA).toEqual({
-    name: 'Heropy',
-    age: 85
+describe('비동기 테스트', () => {
+  test('done', (done) => {
+    asyncFn().then(res => {
+      expect(res).toBe('done!')
+      done()
+    })
   })
-})
 
-test('데이터가 일치하지 않아야 합니다', () => {
-  expect(userB.name).not.toBe('Heropy')
-  expect(userB).not.toEqual(userA)
+  test('then', () => {
+    return asyncFn().then(res => {
+      expect(res).toBe('done!')
+    })
+  })
+
+  test('resolves_1', () => {
+    return expect(asyncFn()).resolves.toBe('done!')
+  })
+
+  test('resolves_2', () => expect(asyncFn()).resolves.toBe('done!'))
+
+  test('async/await', async () => {
+    const res = await asyncFn()
+    expect(res).toBe('done!')
+  })
 })
